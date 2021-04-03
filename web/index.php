@@ -2,7 +2,7 @@
 
 // include 'index.html';
 
-if ($_SESSION['username'] !== " ") {
+if ($_SESSION['username']) {
     echo 'Hello, '.$_SESSION['username'];
 
 } else {
