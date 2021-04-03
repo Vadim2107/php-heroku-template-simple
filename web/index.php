@@ -2,7 +2,7 @@
 
 // include_once 'index.html';
 $userName = $_SESSION['username'];
-echo '<a href="/exit.php">Exit</a>';
+// echo '<a href="/exit.php">Exit</a>';
 // echo 'Hello, '.$_SESSION['username'];
 if ($userName) {
     echo 'Hello, '.$userName.'!!!';
