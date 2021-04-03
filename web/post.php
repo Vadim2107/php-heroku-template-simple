@@ -1,8 +1,8 @@
 <?php
 
-// session_start();
+session_start();
 
 $_SESSION['username'] = $_POST['user_name'];
-echo $_SESSION['username'];
+// echo $_SESSION['username'];
 
-// header("Location: /index.php");
+header("Location: /index.php");

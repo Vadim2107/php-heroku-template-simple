@@ -4,7 +4,7 @@
 $userName = $_SESSION['username'];
 // echo '<a href="/exit.php">Exit</a>';
 // echo 'Hello, '.$_SESSION['username'];
-if ($userName) {
+if (isset($userName)) {
     echo 'Hello, '.$userName.'!!!';
     echo '<a href="/exit.php">Exit</a>';
 } else {
