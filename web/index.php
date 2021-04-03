@@ -1,6 +1,6 @@
 <?php
 
-// session_start();
+session_start();
 // include_once 'index.html';
 // $userName = $_SESSION['username'];
 // echo '<a href="/exit.php">Exit</a>';
