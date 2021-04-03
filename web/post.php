@@ -5,4 +5,4 @@
 $_SESSION['username'] = $_POST['user_name'];
 // echo $_SESSION['username'];
 
-header("Location: /index.html");
+header("Location: /index.php");
