@@ -1,6 +1,6 @@
 <?php
-$_SESSION = null;
-// session_start();
+// $_SESSION = null;
+session_start();
 
 // include_once 'index.html';
 $userName = $_SESSION['username'];
