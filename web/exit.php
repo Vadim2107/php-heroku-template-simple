@@ -1,6 +1,6 @@
 <?php
 
 $_SESSION['username'] = null;
-// session_destroy();
+session_destroy();
 
 header("Location: index.php");
