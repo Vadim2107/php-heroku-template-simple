@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$_SESSION['username'] = 'Vadim';
+
 // include_once 'index.html';
 $userName = $_SESSION['username'];
 // echo '<a href="/exit.php">Exit</a>';
