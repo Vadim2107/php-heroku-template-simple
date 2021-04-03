@@ -1,5 +1,5 @@
 <?php
 
-// session_start();
+session_start();
 // header("Location: /index.html");
 echo $_SESSION;
