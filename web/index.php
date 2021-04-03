@@ -1,10 +1,11 @@
 <?php
 
-// include 'index.html';
+include_once 'index.html';
 
 if ($_SESSION['username']) {
     echo 'Hello, '.$_SESSION['username'];
 
-} else {
-    include 'index.html';
 }
+//  else {
+//     include 'index.html';
+// }
