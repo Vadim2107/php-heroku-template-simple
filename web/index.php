@@ -1,9 +1,11 @@
 <?php
 
 include_once 'index.html';
+$userName = $_SESSION['username'];
 // echo 'Hello, '.$_SESSION['username'];
-if ($_SESSION['username'] === " ") {
-    include 'index.html';
+if ($userName) {
+    echo 'Hello, '.$userName.'!!!';
+    echo '<a href="/exit.php">Exit</a>';
 } else {
-    echo 'Hello, '.$_SESSION['username'].'!!!';
+    include 'index.html';
 }
