@@ -4,4 +4,4 @@ $_SESSION['username'] = null;
 // session_destroy();
 session_unset();
 echo 'Session-null';
-header("Location: index.php");
+// header("Location: index.php");
