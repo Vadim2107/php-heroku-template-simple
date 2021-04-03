@@ -1,3 +1,3 @@
 <?php
 
-echo 'Hello Vadim. Opss...!!!';
+include 'index.html';
