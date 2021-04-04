@@ -1,6 +1,6 @@
 <?php
 // $_SESSION = null;
-// $_SESSION['username'] = null;
+$_SESSION['username'] = " ";
 // session_destroy();
 // session_unset();
 $_SESSION = array();
